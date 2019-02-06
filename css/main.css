@@ -1,4 +1,4 @@
-@charset"UTF-8";
+/*@charset"UTF-8":;*/
 /*CSS Doc*/
 
 /* comments */
@@ -106,7 +106,7 @@ p
 
 #mainNav ul
 {
-	text-decoration: uppercase;
+	/*text-decoration: uppercase;*/
 	display: flex;
 	flex-direction: row;
 }
@@ -179,7 +179,7 @@ p
    	margin-bottom: 400px;
 }
 
-#contactForm h1
+#contactForm h2
 {
 	display: flex;
 	background-color: #696969;
@@ -189,7 +189,7 @@ p
 
 }
 
-#contactForm h2
+#contactForm h3
 {
 	display: flex;
 	background-color: #696969;
@@ -198,14 +198,14 @@ p
 	margin: 50px;
 }
 
-#bgimg
+/*#bgimg
 {
 	justify-content: center;
 	width: 1440px;
 	position: absolute;
 	top: 1700px;
 	z-index: -2;
-}
+}*/
 
 /* question section */
 .questionSection
