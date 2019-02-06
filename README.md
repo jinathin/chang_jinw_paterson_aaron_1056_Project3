@@ -1,3 +1,4 @@
+
 # chang_jin_paterson_aaron_1056_Project3
 wireframe / skin / htmlCSS3
 
@@ -37,3 +38,17 @@ FEB 5
 
 Got 1 more page to build for the box out.
 My understanding of Flexbox is getting better. I thought I understood it last semester, but boy was I wrong. 
+
+# Project 3 for Jin and Aaron 
+wireframe / skin / htmlCSS3
+
+Jin's part 
+created psd for contact page
+
+created contact page
+
+created CSS
+
+as well checked doc outline and validator 
+
+

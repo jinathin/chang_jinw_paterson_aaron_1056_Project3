@@ -15,6 +15,7 @@
 /* #DCDCDC */
 
 
+
 body
 {
 	font-family: 'Helvetica', Arial, sans-serif;
@@ -39,6 +40,7 @@ div a {
 }
 
 
+
 /* This will fill all my content */
 #topInfo
 {	display: flex;
@@ -57,6 +59,7 @@ div a {
 	margin: 0 auto;
 
 }
+
 #contactTop
 {
 	width: 300px;
@@ -90,7 +93,6 @@ div a {
 	display: flex;
 	flex-direction: row;
 	margin-top: 40px;
-
 }
 
 /*This is a flex for logo */
@@ -103,7 +105,8 @@ div a {
 
 }
 
-.navCon{
+.navCon
+{
 	margin-left: auto;
 	height: 100px;
 	margin-bottom: 30px;
@@ -123,6 +126,7 @@ div a {
 
 #mainNav ul
 {
+
 	text-decoration: uppercase;
 	display: flex;
 	flex-direction: row;
@@ -140,7 +144,11 @@ div a {
 	padding: 8px;
 	font-size: 16px;
 	border-radius: 7px;
+<<<<<<< HEAD
 	background: #cff3019;
+=======
+	background: #ff3019;
+>>>>>>> dev.jc.scaf
 
 }
 */
@@ -170,6 +178,7 @@ div a {
 	background-color: #a9a9a9;
 
 }	
+
 #featureStack{
 	display: flex;
 	flex-direction: column;
@@ -273,6 +282,19 @@ div a {
 	margin-top: 20px;
 	margin-bottom: 120px;	
 }
+
+/* project section container */
+
+#contactPage
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 120px;	
+}
+
 
 .projectCon h2 
 {
@@ -705,6 +727,72 @@ div a {
 
 /* partner end */
 
+#bodyTitle 
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 656px;
+	height: 105px;
+	background-color: #a9a9a9;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#googleMap
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+/*	width: 0 auto;*/
+	height: 600px;
+	background-color: #696969;
+	z-index: -1;
+
+}
+
+#contactForm
+{
+	display: flex;
+    flex-direction: row;
+    width: 910px;
+    margin: 0 auto;
+    background-color: #a9a9a9;
+    position: relative;
+    justify-content: space-evenly; 
+   	bottom: 50px;
+   	margin-bottom: 400px;
+}
+
+#contactForm h2
+{
+	display: flex;
+	background-color: #696969;
+	width: 266px;
+	height: 279px;
+	margin: 50px;
+
+}
+
+#contactForm h3
+{
+	display: flex;
+	background-color: #696969;
+	width: 428px;
+	height: 736px;
+	margin: 50px;
+}
+
+/*#bgimg
+{
+	justify-content: center;
+	width: 1440px;
+	position: absolute;
+	top: 1700px;
+	z-index: -2;
+}*/
+
 
 /* question section */
 .questionSection
@@ -724,6 +812,12 @@ div a {
 	flex-direction: row;
 	margin: 23px 25px 25px 70px;
 
+}
+
+#questionNumber
+{
+	display: flex;
+	flex-direction: column;
 }
 
 .haveQuestion h3
@@ -1151,3 +1245,33 @@ div a {
 	background-color: #696969;
 
 }
+
+#mainFootercontact
+{	
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	height: 545px;
+	width: 1440px;
+	margin-top: 100px;
+	background-color: #696969;
+}
+
+
+/*for future uses maybe
+#bgimg {
+  max-width: 100%; 
+  width: 800px;
+  margin: auto;
+}
+
+#bgm::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}*/
+
